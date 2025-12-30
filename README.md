@@ -1,32 +1,74 @@
-# Remix
+# React Small Apps
 
-This directory is a brief example of a [Remix](https://remix.run/docs) site that can be deployed to Vercel with zero configuration.
+A collection of small React applications built with [Remix](https://remix.run), a full-stack web framework that leverages React for building fast, modern web experiences.
 
-## Deploy Your Own
+## Overview
+
+This project demonstrates Remix patterns and React best practices through concise, focused examples. It is configured for seamless deployment to [Vercel](https://vercel.com) with zero configuration.
+
+## Tech Stack
+
+- **Framework:** Remix
+- **UI Library:** React 18
+- **Language:** TypeScript
+- **Deployment:** Vercel
+- **Analytics:** Vercel Analytics
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 14 or higher
+- npm, yarn, or pnpm
+
+### Installation
+
+```sh
+npm install
+```
+
+### Development
+
+Start the development server:
+
+```sh
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Production Build
+
+```sh
+npm run build
+```
+
+## Deployment
+
+### Deploy to Vercel
+
+The easiest way to deploy is with Vercel:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/remix&template=remix)
 
-_Live Example: https://remix-run-template.vercel.app_
-
-You can also deploy using the [Vercel CLI](https://vercel.com/cli):
+Alternatively, deploy using the [Vercel CLI](https://vercel.com/cli):
 
 ```sh
 npm i -g vercel
 vercel
 ```
 
-## Development
+## Project Structure
 
-To run your Remix app locally, make sure your project's local dependencies are installed:
-
-```sh
-npm install
+```
+app/
+  entry.client.tsx   # Client-side entry point
+  entry.server.tsx   # Server-side entry point
+  root.tsx           # Root component
+  routes/            # Route components
+public/              # Static assets
 ```
 
-Afterwards, start the Remix development server like so:
+## License
 
-```sh
-npm run dev
-```
-
-Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
+MIT
