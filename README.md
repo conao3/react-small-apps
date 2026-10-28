@@ -9,7 +9,7 @@ This project demonstrates React Router patterns and React best practices through
 ## Tech Stack
 
 - **Framework:** React Router 7
-- **UI Library:** React 18
+- **UI Library:** React 19
 - **Language:** TypeScript
 - **Deployment:** Vercel
 - **Analytics:** Vercel Analytics
@@ -18,8 +18,8 @@ This project demonstrates React Router patterns and React best practices through
 
 ### Prerequisites
 
-- Node.js 20 or higher
-- pnpm 7.33.7
+- Node.js 24 or higher
+- pnpm 12.9.0
 
 ### Installation
 
