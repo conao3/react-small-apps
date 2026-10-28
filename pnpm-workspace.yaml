@@ -1,0 +1,13 @@
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
+overrides:
+  "@fastify/busboy": 3.2.2
+  ajv: 8.18.0
+  cookie: 1.1.1
+  esbuild: 0.25.0
+  estree-util-value-to-estree: 3.3.3
+  tar: 7.5.22
+  toml: 5.0.1
+  turbo-stream: 3.0.0
+  undici: 6.29.1
